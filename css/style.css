@@ -13,3 +13,20 @@ td {
   text-align: center;
   vertical-align: middle;
 }
+
+#lean_overlay {
+    position: fixed;
+    z-index:100;
+    top: 0px;
+    left: 0px;
+    height:100%;
+    width:100%;
+    background: #000;
+    display: none;
+}
+
+.foto{
+    margin: 0px;
+    border: 1px solid #767676;
+
+}
