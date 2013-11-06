@@ -9,7 +9,7 @@ $code = strcmp($password, "tree2013beo");
 if ($code == 0) {
 	
 	// Ejecuto el SP de actualizar ranking
-	$unaConexion = new Conexion ( "localhost", "root", "lucas", "RankingPingPong" );
+	$unaConexion = new Conexion ( "192.168.1.100", "root", "chomdic", "RankingPingPong" );
 		
 		$unaConexion->conectar ();
 		

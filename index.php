@@ -8,6 +8,7 @@
 			<link rel="stylesheet" href="css/messi.min.css">
 			<link rel="stylesheet" href="css/jqueryUI.css">
 			<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />	
+			<img src="portada.png"></img>
 	</head>
 
 	<body>
@@ -20,8 +21,6 @@
 		<script type="text/javascript" src="js/jqueryUI.js"></script>
 		<script type="text/javascript" src="js/messi.min.js"></script>
 
-		<h1 align="center">RANKING DE PING PONG OFICIAL</h1>
-		
 		<button id="create-user">Actualizar Ranking</button>
 		
 		<br>		
@@ -37,8 +36,10 @@
 		</div>
 
 
-		<table border="1" style="margin: 0px auto;">
-			<tr>
+		<table border="0" style="margin: 0px auto;" cellpadding="2px" cellspacing="2px">
+			<tr style="color:blue;">
+				<th></th>
+				<th></th>
 				<th>Nombre</th>
 				<th>Apellido</th>
 				<th>Puntos</th>
@@ -145,6 +146,11 @@
 			$( document ).ready(function() {
   				modificarGrilla();
 			});
+
+			function abrirImagen(pathImg){
+				window.open(pathImg, 'windowname1', 'width=auto, height=auto'); 
+				return false;
+			}
 		</script>
 	</body>
 </html>
